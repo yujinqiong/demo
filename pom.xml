@@ -15,8 +15,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <demo.version>0.0.8-SNAPSHOT</demo.version>
-        <deptest.version>0.0.1-SNAPSHOT</deptest.version>
+        <deptest.version>0.0.1</deptest.version>
     </properties>
 
     <dependencies>
@@ -39,7 +38,7 @@
         <dependency>
             <groupId>com.example</groupId>
             <artifactId>deptest</artifactId>
-            <version>0.0.1</version>
+            <version>${deptest.version}</version>
         </dependency>
     </dependencies>
 
