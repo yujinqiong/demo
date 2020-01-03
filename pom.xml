@@ -59,39 +59,39 @@
     </build>
 
 
-    <repositories>
-        <repository>
-            <id>public</id>
-            <name>public Repository</name>
-            <url>http://nexus.local:21081/repository/maven-public/</url>
-            <releases>
-                <enabled>true</enabled>
-                <updatePolicy>daily</updatePolicy>
-            </releases>
-            <snapshots>
-                <enabled>true</enabled>
-                <checksumPolicy>warn</checksumPolicy>
-            </snapshots>
-            <layout>default</layout>
-        </repository>
-    </repositories>
+<!--    <repositories>-->
+<!--        <repository>-->
+<!--            <id>public</id>-->
+<!--            <name>public Repository</name>-->
+<!--            <url>http://nexus.local:21081/repository/maven-public/</url>-->
+<!--            <releases>-->
+<!--                <enabled>true</enabled>-->
+<!--                <updatePolicy>daily</updatePolicy>-->
+<!--            </releases>-->
+<!--            <snapshots>-->
+<!--                <enabled>true</enabled>-->
+<!--                <checksumPolicy>warn</checksumPolicy>-->
+<!--            </snapshots>-->
+<!--            <layout>default</layout>-->
+<!--        </repository>-->
+<!--    </repositories>-->
 
     <scm>
         <developerConnection>scm:git:https://github.com/yujinqiong/demo.git</developerConnection>
         <tag>HEAD</tag>
     </scm>
 
-    <distributionManagement>
-        <repository>
-            <id>nexus.local.releases</id>
-            <name>releases Repository</name>
-            <url>http://nexus.local:21081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus.local.snapshots</id>
-            <name>snapshots Repository</name>
-            <url>http://nexus.local:21081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
+<!--    <distributionManagement>-->
+<!--        <repository>-->
+<!--            <id>nexus.local.releases</id>-->
+<!--            <name>releases Repository</name>-->
+<!--            <url>http://nexus.local:21081/repository/maven-releases/</url>-->
+<!--        </repository>-->
+<!--        <snapshotRepository>-->
+<!--            <id>nexus.local.snapshots</id>-->
+<!--            <name>snapshots Repository</name>-->
+<!--            <url>http://nexus.local:21081/repository/maven-snapshots/</url>-->
+<!--        </snapshotRepository>-->
+<!--    </distributionManagement>-->
 
 </project>
